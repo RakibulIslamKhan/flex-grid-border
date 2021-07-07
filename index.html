@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border!!! | Grid!!!</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: center;
+            margin-bottom: 10%;
+        }
+
+        .grid-container img,
+        .flex-container img {
+            height: 300px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 10%;
+        }
+
+        .border-container img {
+            height: 300px;
+            margin: 1%;
+        }
+
+        .border-container img:nth-child(1) {
+            border-bottom-left-radius: 50%;
+            border-top-right-radius: 50%;
+        }
+
+        .border-container img:nth-child(2) {
+            border-top-left-radius: 100%;
+            border-top-right-radius: 100%;
+        }
+
+        .border-container img:nth-child(3) {
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+        .border-container img:nth-child(4) {
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+
+        .border-container img:nth-child(5) {
+            border-bottom-left-radius: 100%;
+            border-top-right-radius: 100%;
+            border-bottom-right-radius: 100%;
+            border-top-left-radius: 100%;
+        }
+
+        .border-container img:nth-child(6) {
+            border-bottom-left-radius: 100%;
+            border-top-right-radius: 100%;
+        }
+
+        .border-container img:nth-child(7) {
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+
+        .border-container img:nth-child(8) {
+            border-radius: 50%;
+            width: 300px;
+        }
+
+        .border-container img:nth-child(9) {
+            border-top-left-radius: 100%;
+            width: 300px;
+        }
+
+        .border-container img:nth-child(10) {
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            border-bottom-left-radius: 100%;
+            width: 300px;
+        }
+
+        .border-container img:nth-child(11) {
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            border-top-right-radius: 100%;
+            width: 300px;
+        }
+
+        .border-container img:nth-child(12) {
+            border-top-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <img src="images/02.jpg" alt="">
+        <img src="images/11.jpg" alt="">
+        <img src="images/60.jpg" alt="">
+        <img src="images/89.jpg" alt="">
+        <img src="images/6.jfif" alt="">
+        <img src="images/90.jpg" alt="">
+        <img src="images/61.jpg" alt="">
+        <img src="images/63.jfif" alt="">
+        <img src="images/nasa.jpg" alt="">
+    </div>
+    <div class="flex-container">
+        <img src="images/02.jpg" alt="">
+        <img src="images/11.jpg" alt="">
+        <img src="images/60.jpg" alt="">
+        <img src="images/89.jpg" alt="">
+        <img src="images/6.jfif" alt="">
+        <img src="images/90.jpg" alt="">
+        <img src="images/61.jpg" alt="">
+        <img src="images/63.jfif" alt="">
+        <img src="images/nasa.jpg" alt="">
+    </div>
+    <div class="border-container">
+        <img src="images/02.jpg" alt="">
+        <img src="images/11.jpg" alt="">
+        <img src="images/60.jpg" alt="">
+        <img src="images/89.jpg" alt="">
+        <img src="images/6.jfif" alt="">
+        <img src="images/90.jpg" alt="">
+        <img src="images/61.jpg" alt="">
+        <img src="images/63.jfif" alt="">
+        <img src="images/nasa.jpg" alt="">
+        <img src="images/9.jpg" alt="">
+        <img src="images/min.jpg" alt="">
+        <img src="images/60.jpg" alt="">
+    </div>
+</body>
+
+</html>
